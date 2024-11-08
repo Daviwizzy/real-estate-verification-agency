@@ -2,12 +2,12 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <main className="hero-main-container container">
-      <div className="hero-container grid">
+    <main className="hero-main-container container-margin">
+      <div className="hero-container">
         <div className="hero-text">
           <h1 className="slide">
             <span className="heading-text">
-              Verify <br /> Your Property{" "}
+              Verify <br /> Your Property
             </span>
             <br />
             Investment with <span className="green">Verizone</span>
@@ -19,7 +19,9 @@ const Hero = () => {
           <button type="button">Register</button>
         </div>
 
-        <div className="hero-image"></div>
+        <div className="hero-image">
+          <img src="./Hero.svg" alt="hero image" />
+        </div>
       </div>
     </main>
   );

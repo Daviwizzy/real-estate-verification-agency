@@ -18,7 +18,7 @@ const Header = () => {
             alt="Logo"
             className="w-24 sm:w-32 md:w-40  lg:w-48"
           />
-        </div>
+        </div>{}
 
         {/* Hamburger Icon */}
         <div className="hamburger" onClick={toggleMenu}>

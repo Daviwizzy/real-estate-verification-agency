@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section className="about-main-container container">
+    <section className="about-main-container container-margin">
       <div className="about-left">
         <div className="about-image"></div>
       </div>
@@ -13,7 +13,7 @@ const About = () => {
         <p className="text">
           Building Trust Through Accuracy, Expertise, and Integrity.
         </p>
-        <section className="stats-container flex">
+        <section className="stats-container">
           <div className="stat">
             <p className="stat-number">300+</p>
             <p className="stat-label">Verified Properties</p>
@@ -27,8 +27,8 @@ const About = () => {
             <p className="stat-label">Satisfied Customers</p>
           </div>
         </section>
-        <div className="logo slide">
-          <img src="/src/assets/images/VERIZONE B 1.png" alt="verizon logo" />
+        <div className="logo">
+          <img src="./VERIZONEB1.svg" alt="verizon logo" />
         </div>
       </div>
     </section>
