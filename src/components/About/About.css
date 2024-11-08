@@ -1,0 +1,110 @@
+.about-main-container {
+  width: 100%;
+  gap: 41.15px;
+  padding-inline: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-left {
+  width: 526px;
+  height: 555.65px;
+}
+
+.about-image {
+  position: relative;
+  width: 526px;
+  height: 526px;
+  background: url(/src/assets/images/Ellipse\ 7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+}
+.about-image::after {
+  position: absolute;
+  top: 413.15px;
+  left: 22.95px;
+  width: 191.27px;
+  height: 142.5px;
+  content: "";
+  background: url(/src/assets/images/Frame\ 1000004462.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+.about-image::before {
+  content: "";
+  position: absolute;
+
+  width: 90%;
+  height: 90%;
+  background: url(/src/assets/images/Ellipse\ 7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 2.87px solid #fff;
+  border-radius: 50%;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 23.2px;
+}
+
+.about-right p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: var(--clr-neutral-200);
+}
+.about-right .text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: var(--clr-primary-300);
+  max-width: 40ch;
+}
+.about-right h2 {
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 62.17px;
+  color: var(--clr-neutral-300);
+  max-width: 20ch;
+}
+
+.stats-container {
+  background-color: var(--bg-dark-green2);
+  gap: 49.08px;
+  padding: 18.74px 23.2px;
+  border-radius: 0 24px 0 24px;
+}
+
+.stat .stat-number {
+  color: var(--clr-neutral-100);
+
+  font-weight: 700;
+  font-size: 39.26px;
+  line-height: 47.86px;
+}
+
+.stat .stat-label {
+  color: var(--clr-neutral-100);
+
+  font-weight: 400;
+  font-size: 14.28px;
+  line-height: 17.4px;
+}
+
+.logo {
+  width: 177px;
+  height: 35px;
+}
