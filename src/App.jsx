@@ -2,21 +2,8 @@ import "./App.css";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-<<<<<<< Updated upstream
 import Trust from "./components/Trust/Trust";
 import Why from "./components/Why/Why";
-
-function App() {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Why />
-      <Trust />
-    </div>
-  );
-=======
 import Explore from "./components/Explore/Explore";
 
 function App() {
@@ -25,10 +12,11 @@ function App() {
             <Header />
             <Hero />
             <About />
+            <Why />
+            <Trust />
             <Explore />
         </div>
     );
->>>>>>> Stashed changes
 }
 
 export default App;
