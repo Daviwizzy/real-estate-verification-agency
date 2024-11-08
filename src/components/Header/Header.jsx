@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container">
         <div>
           <img
-            src="/Logo.svg"
+            src="/logo.svg"
             alt="Logo"
             className="w-24 sm:w-32 md:w-40  lg:w-48"
           />
