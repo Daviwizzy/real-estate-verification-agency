@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Trust from "./components/Trust/Trust";
 import Why from "./components/Why/Why";
 import Explore from "./components/Explore/Explore";
+import Mission from "./components/Mission/Mission";
 
 function App() {
     return (
@@ -13,8 +14,9 @@ function App() {
             <Hero />
             <About />
             <Why />
-            <Trust />
             <Explore />
+            <Trust />
+            <Mission />
         </div>
     );
 }
