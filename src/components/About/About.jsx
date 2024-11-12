@@ -27,7 +27,7 @@ const About = () => {
             <p className="stat-label">Satisfied Customers</p>
           </div>
         </section>
-        <div className="logo">
+        <div className="verizon-logo">
           <img src="./VERIZONEB1.svg" alt="verizon logo" />
         </div>
       </div>

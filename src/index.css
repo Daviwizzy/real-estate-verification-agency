@@ -17,6 +17,7 @@
   --bg-dark-green2: hsla(133, 36%, 39%, 1);
   --bg-green: hsla(133, 40%, 53%, 1);
   --bg-light-green: hsla(180, 42%, 95%, 1);
+  --bg-light-gray: hsla(120, 7%, 95%, 1);
   --bg-light: #fff;
 
   /*   button
@@ -44,7 +45,7 @@ a {
 }
 
 .container-margin {
-  margin-block: 71.5px;
+  margin-block: 41.5px;
 }
 
 .innerWidth {

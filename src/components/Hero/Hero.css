@@ -1,36 +1,41 @@
+/* MOBILE FIRST APPROACH
+ */
+
 .hero-main-container {
   position: relative;
-  max-width: 1330.4px;
-  height: 514.8px;
-  margin-inline: auto;
-
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  max-width: min-content;
+  min-height: 435.38px;
+  margin-inline: auto;
+}
+
+.hero-main-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 46.03px;
+  height: 46.46px;
+  opacity: 0.42;
+  background: url(./Hero2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  z-index: -1;
 }
 
 .hero-main-container::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
-  height: 128.8px;
-  width: 124.41px;
-  background: url(./Hero1.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  z-index: -1;
-}
-.hero-main-container::before {
-  content: "";
-  position: absolute;
   right: 0;
-  top: 0;
-  width: 223.4px;
-  height: 183.55px;
-  background: url(./Hero2.svg);
-  background-size: cover;
+  width: 94.71px;
+  height: 112.38px;
+  background: url(./Hero1.svg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -38,38 +43,43 @@
 }
 
 .hero-container {
-  position: relative;
-  height: 417px;
-  width: 1280px;
-  background-color: var(--bg-light-green);
-  border-radius: 0 150px 0 70px;
-  margin-top: 78px;
-  margin-inline: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  min-width: 313px;
+  min-height: 404px;
+  margin: 16px 15px;
+  background-color: var(--bg-light-gray);
+  border-radius: 0 63.59px 0 0;
 }
 
 .hero-text {
-  gap: 17px;
-  padding-left: 77px;
-  max-width: 48ch;
-
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  align-items: flex-start;
+  margin-block: 19px;
+  margin-inline: 50.45px;
+  gap: 11px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-block: 19px;
+  gap: 11px;
 }
 
 .hero-text .heading-text {
-  font-size: 67px;
+  font-size: 28px;
   font-weight: 800;
-  line-height: 81.67px;
+  line-height: 34.13px;
 }
 .hero-text h1 {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 34.13px;
-  text-wrap: nowrap;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.73px;
 }
 
 .green {
@@ -78,93 +88,92 @@
 }
 
 .hero-text p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.5px;
-  max-width: 40ch;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.41px;
+  max-width: 30ch;
 }
 .hero-text button {
   cursor: pointer;
   background-color: var(--bg-green);
   color: var(--clr-neutral-100);
-  font-size: 16px;
+  font-size: 8.21px;
   font-weight: 500;
-  line-height: 19.5px;
-  text-align: center;
-  max-width: 116px;
+  line-height: 10.01px;
+
   border: none;
-  border-radius: 4px;
-  padding: 14px 24px;
-  margin-block: 14.38px;
+  border-radius: 2.05px;
+  padding: 7.19px 12.32px;
+  width: 59.55px;
+  transition: background-color 0.3s;
+}
+
+.hero-text button:hover {
+  background-color: #3e8e57;
+  color: white;
 }
 
 .hero-image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 751px;
-  height: 494px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: contain;
-}
-.hero-image img {
   width: 100%;
-  display: block;
+  min-height: 205px;
+  background-image: url(./Hero.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero-main-container {
     position: relative;
-    width: 340.71px;
-    display: flex;
-  }
-
-  .hero-main-container::after {
-    height: 112.38px;
-    width: 94.71px;
+    max-width: 1330.4px;
+    min-height: 514.8px;
+    align-items: flex-end;
   }
   .hero-main-container::before {
-    width: 46.03px;
-    height: 46.46px;
-
-    opacity: 0.42;
-
-    z-index: -1;
+    left: auto;
+    right: 0;
+    top: 41px;
+    width: 223.4px;
+    height: 183.55px;
+    opacity: 1;
+  }
+  .hero-main-container::after {
+    bottom: 0;
+    left: 0;
+    height: 128.8px;
+    width: 124.41px;
   }
 
   .hero-container {
-    width: 313px;
-    height: 404px;
+    position: relative;
+    height: 416px;
+    width: 1280px;
+    border-radius: 0 150px 0 70px;
     background-color: var(--bg-light-green);
-    border-radius: 0 63.59px 0 0;
-    margin-block: auto;
-    margin-inline: auto;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
   }
 
   .hero-text {
-    margin-block: 19px;
-    height: 171.29px;
-    gap: 11px;
+    gap: 17px;
+    max-width: 48ch;
 
     display: flex;
     flex-direction: column;
+    gap: 3px;
   }
 
   .hero-text .heading-text {
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 34.13px;
+    font-size: 67px;
+    line-height: 81.67px;
   }
   .hero-text h1 {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20.73px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34.13px;
     text-wrap: nowrap;
   }
 
@@ -174,39 +183,34 @@
   }
 
   .hero-text p {
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 13.41px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
     max-width: 40ch;
   }
   .hero-text button {
-    cursor: pointer;
-    background-color: var(--bg-green);
-    color: var(--clr-neutral-100);
-    font-size: 8.21px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 10.01px;
-
+    line-height: 19.5px;
+    width: 116px;
     border: none;
-    border-radius: 2.05px;
-    padding: 7.19px 12.32px;
-
-    width: 59.55px;
-    height: 24.37px;
+    border-radius: 4px;
+    padding: 14px 24px;
+    margin-block: 14.38px;
   }
 
   .hero-image {
-    width: 312px;
-    height: 215px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: contain;
-    margin-top: 19px;
-  }
-
-  .hero-image img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    display: block;
+    height: auto;
+    max-width: 751px;
+    min-height: 494px;
+    background-image: url(./Hero.svg);
+    background-size: cover;
+
+    background-position: right center;
+    background-repeat: no-repeat;
   }
 }

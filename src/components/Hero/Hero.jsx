@@ -19,9 +19,7 @@ const Hero = () => {
           <button type="button">Register</button>
         </div>
 
-        <div className="hero-image">
-          <img src="./Hero.svg" alt="hero image" />
-        </div>
+        <div className="hero-image"></div>
       </div>
     </main>
   );
