@@ -1,66 +1,91 @@
+/* Center alignment and responsive adjustments */
+
 .trust-container {
   background-color: #265230;
-  height: 707.34px;
-  padding: 47px 150px 47px 150px;
-  gap: 44.98px;
+  padding: 30px 15px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+}
+
+@media (min-width: 768px) {
+  .trust-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 80px;
+  }
 }
 
 .trust-first {
-  background: url(./Trust.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 398.67px;
-  height: 613.34px;
-  padding: 323px 81.67px 77.34px 29px;
-  border-radius: 21px;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .trust-first {
+    height: 613px;
+    background: url(./Trust.svg) center/cover no-repeat;
+  }
 }
 
 .trust-last {
-  /* width: 694.92px;
-  height: 611.6px; */
-  gap: 20px;
   display: grid;
-  grid-template-columns: auto auto;
-  /* grid-template-rows: auto auto; */
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 700px;
 }
 
-.trust-last > div {
-  padding-block: 20px;
-  padding-inline: 10px;
+@media (min-width: 768px) {
+  .trust-last {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Adjust section margins */
+.section {
+  margin: 40px auto;
+}
+
+.why-trust-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.our-mission {
+  padding: 20px;
+  text-align: center;
+}
+
+.trust-card {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: -9.44px 10.62px 26.68px 0px #00000021;
   display: flex;
   flex-direction: column;
-  width: 323.44px;
-  height: 283.3px;
-  gap: 48.04px;
-  border-radius: 16px;
-  background: #ffffff;
-  box-shadow: -9.44px 10.62px 26.68px 0px #00000021;
+  gap: 10px;
 }
 
 .trust-card > h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 22.49px;
+  line-height: 1.2;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 .trust-card > p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.5px;
+  font-size: 14px;
+  line-height: 1.4;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 .trust-card > hr {
-  width: 77px;
-  top: 253px;
-  left: 26px;
+  width: 60px;
   border: 3px solid #55b76b;
 }
