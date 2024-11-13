@@ -82,7 +82,36 @@
 }
 
 @media screen and (max-width: 375px) {
-    .mission-container {
+    /* .mission-container {
         flex-direction: column;
-    }
+    } */
+
+
+.mission-container {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.ourMissionLeft h1 {
+    font-size: 28px;
+    line-height: 1.1;
+}
+
+.ourMissionLeft p {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.ourMissionRight {
+    width: 100%;
+    max-width: 300px;
+}
+
+.ourMissionRight .ourMissionImg1,
+.ourMissionRight .ourMissionImg2 {
+    gap: 5px;
+}
 }
