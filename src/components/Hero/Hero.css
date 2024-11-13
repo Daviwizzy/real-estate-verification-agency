@@ -3,12 +3,9 @@
 
 .hero-main-container {
   position: relative;
-<<<<<<< HEAD
-=======
   max-width: 1330.4px;
   height: 514.8px;
   margin-inline: auto;
->>>>>>> 68572e9094ebfac3fb40ed3a65fd53780b7a16ea
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,3 +1,8 @@
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --clr-accent-400: hsla(134, 36%, 42%, 1);
   --clr-accent-300: hsla(133, 40%, 53%, 1);
