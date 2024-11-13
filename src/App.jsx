@@ -9,6 +9,7 @@ import Explore from "./components/Explore/Explore";
 import Mission from "./components/Mission/Mission";
 import Footer from "./components/Footer/Footer";
 import Mobfooter from "./components/Footer/mob-footer";
+import Contact from "./components/contact/Contact";
 // import AccordionTransition from "./components/FAQS/Faqs";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Explore />
       <Trust />
       <Mission />
-      {/* <AccordionTransition  /> */}
+      <Contact />
       <Footer />
       <Mobfooter />
     </div>
