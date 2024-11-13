@@ -81,18 +81,17 @@
     left: 22%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     /* .mission-container {
         flex-direction: column;
     } */
 
-
 .mission-container {
     flex-direction: column;
-    padding: 1rem;
+    /* padding: 1rem;
     gap: 30px;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 80px; */
 }
 
 .ourMissionLeft h1 {
