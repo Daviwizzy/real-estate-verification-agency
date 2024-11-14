@@ -6,6 +6,7 @@
   width: 100%;
   gap: 23px;
   overflow: hidden;
+  margin-inline: auto;
 }
 
 .how-title-container {
@@ -115,9 +116,9 @@
 
 @media screen and (min-width: 768px) {
   .how-main-container {
+    width: 100%;
     max-width: 1442px;
     gap: 75px;
-
     padding: 46px 179px;
   }
 

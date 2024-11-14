@@ -54,7 +54,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 23.2px;
+  gap: 6px;
+
+  height: 234.6px;
 }
 
 .about-right p {
@@ -77,40 +79,36 @@
   color: var(--clr-primary-300);
   max-width: 40ch;
 }
-
 .stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 29.38px;
+  width: 100%;
+  height: 71.06px;
   background-color: var(--bg-dark-green2);
-  gap: 13.36px;
-  padding: 11.22px 13.89px;
   border-radius: 0 14.37px 0 14.37px;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 11.22px 13.89px;
 }
 
-.stat {
+.stats-container .stat {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 13.36px;
+  margin-block: auto;
+  width: 85.48px;
+  height: 48.62px;
+
+  font-size: 8.55px;
+  line-height: 10.42px;
+  font-weight: 400;
+  color: var(--clr-neutral-100);
 }
 
-.stat .stat-number {
-  color: var(--clr-neutral-100);
-
+.stat span {
   font-weight: 700;
   font-size: 23.51px;
   line-height: 28.66px;
-}
-
-.stat .stat-label {
-  color: var(--clr-neutral-100);
-
-  font-weight: 400;
-  font-size: 8.55px;
-  line-height: 10.42px;
 }
 
 .verizon-logo {
@@ -160,6 +158,7 @@
   .about-right {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     text-align: left;
   }
@@ -182,30 +181,31 @@
   }
 
   .stats-container {
-    background-color: var(--bg-dark-green2);
     gap: 49.08px;
-    padding: 18.74px 23.2px;
+    width: 100%;
+    height: 118.67px;
+    background-color: var(--bg-dark-green2);
     border-radius: 0 24px 0 24px;
+
+    padding: 18.74px 23.2px;
   }
 
-  .stat {
-    gap: 22.31px;
-  }
+  .stats-container .stat {
+    margin-block: auto;
 
-  .stat .stat-number {
+    width: 142.77px;
+    height: 81.2px;
+
+    font-size: 14.28px;
+    line-height: 17.4px;
+    font-weight: 400;
     color: var(--clr-neutral-100);
+  }
 
+  .stat span {
     font-weight: 700;
     font-size: 39.26px;
     line-height: 47.86px;
-  }
-
-  .stat .stat-label {
-    color: var(--clr-neutral-100);
-
-    font-weight: 400;
-    font-size: 14.28px;
-    line-height: 17.4px;
   }
 
   .verizon-logo {

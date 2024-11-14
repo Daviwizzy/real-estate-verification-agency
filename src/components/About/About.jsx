@@ -13,18 +13,19 @@ const About = () => {
           Building Trust Through Accuracy, Expertise, and Integrity.
         </p>
         <section className="stats-container">
-          <div className="stat">
-            <p className="stat-number">300+</p>
-            <p className="stat-label">Verified Properties</p>
-          </div>
-          <div className="stat">
-            <p className="stat-number">95%</p>
-            <p className="stat-label">Compliance Rate</p>
-          </div>
-          <div className="stat">
-            <p className="stat-number">70+</p>
-            <p className="stat-label">Satisfied Customers</p>
-          </div>
+
+          <p className="stat">
+            <span>300+</span> Verified Properties
+          </p>
+
+          <p className="stat">
+            <span>95%</span> Compliance Rate
+          </p>
+
+          <p className="stat">
+            <span>70+</span> Satisfied Customers
+          </p>
+          
         </section>
         <div className="verizon-logo">
           <img src="./VERIZONEB1.svg" alt="verizon logo" />
