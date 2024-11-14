@@ -2,7 +2,7 @@ import "./Explore.css";
 
 function Explore() {
     return (
-        <div className="explore">
+        <div className="explore container-margin">
             <div className="explore-container">
                 <h1>Explore Our Jurisdictions</h1>
                 <p>

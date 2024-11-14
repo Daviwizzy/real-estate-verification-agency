@@ -1,16 +1,14 @@
 .explore {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    /* /* margin-top:140px; */
+    margin-bottom:140px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .explore-container {
     justify-items: center;
-    width: 1, 442px;
-    height: 591.04px;
-    top: 2985.44px;
-    left: -1px;
-    padding: 0px 150px 0px 150px;
-    gap: 22px;
+  
 }
 
 .explore-container h1 {
@@ -33,8 +31,8 @@
 
 .explore-states {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
+    justify-content: center;
     gap: 28px;
     margin-top: 2rem;
 }
@@ -42,7 +40,6 @@
 .locals {
     display: flex;
     justify-content: space-between;
-    /* justify-content: flex-start; */
     justify-items: center;
     align-items: center;
     gap: 5rem;
@@ -67,6 +64,7 @@
     gap: 2rem;
     justify-items: center;
     padding: 1rem;
+    justify-content: center;
     align-items: center;
     color: #55b76b;
     border: solid 2px #4da560;
@@ -74,8 +72,7 @@
 }
 
 .logos {
-    text-align: center;
-    align-items: center;
+    justify-items: center;
 }
 
 .logos h3 {
@@ -87,14 +84,14 @@
     padding: 1rem;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 376px) {
+=======
+@media screen and (max-width: 720px) {
+>>>>>>> 77a860399130ad2fbffeecc78098c100c7a76590
     .explore {
         margin-top: 4rem;
         margin-bottom: 4rem;
-    }
-
-    .explore-container {
-        padding: 1rem;
     }
 
     .explore-container h1 {
@@ -113,24 +110,19 @@
         text-align: center;
         text-decoration-skip-ink: none;
         width: 339.84px;
-        height: 36.83px;
+        height: 36.83px; 
     }
 
     .explore-states {
         flex-direction: column;
         justify-items: center;
-        padding: 1rem;
-        gap: 14px;
-        margin-top: 1rem;
-        width: 342.51px;
-        height: 428.14px;
-        border-radius: 19.03px;
-        border: 1.9px;
+        
     }
 
-    .explore-states .logo ul {
-        padding-bottom: 2rem;
+    .explore-states .logo{
+        width:120%;
     }
+
 
     .explore-states .logo ul li {
         font-size: 12px;

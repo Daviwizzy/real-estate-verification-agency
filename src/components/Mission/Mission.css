@@ -81,22 +81,35 @@
     left: 22%;
 }
 
-@media screen and (max-width: 376px) {
-    /* .mission-container {
+@media screen and (max-width:720px) {
+    .mission-container {
         flex-direction: column;
-    } */
 
-.mission-container {
-    flex-direction: column;
-    /* padding: 1rem;
-    gap: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px; */
-}
+    }
+
+    .ourMissionLeft{
+    width:376px;
+    height:210px;
+    gap: 20px;
+    justify-content: center;
+
+ }
+
 
 .ourMissionLeft h1 {
-    font-size: 28px;
-    line-height: 1.1;
+    width: 376px;
+height: 118px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 700;
+line-height: 58.51px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
 }
 
 .ourMissionLeft p {

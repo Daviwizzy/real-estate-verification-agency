@@ -2,7 +2,8 @@ import "./How.css";
 
 const How = () => {
   return (
-    <section className="how-main-container container-margin">
+    <div className="how-container">
+  <section className="how-main-container container-margin">
       <div className="how-title-container">
         <h2 className="how-title">How it works</h2>
         <p>Your Path To Verified Property</p>
@@ -44,6 +45,8 @@ const How = () => {
         </div>
       </div>
     </section>
+    </div>
+  
   );
 };
 

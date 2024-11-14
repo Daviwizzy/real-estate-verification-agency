@@ -9,6 +9,14 @@
   margin-inline: auto;
 }
 
+.how-container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
 .how-title-container {
   text-align: center;
 }
