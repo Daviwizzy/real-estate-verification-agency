@@ -87,11 +87,7 @@
     padding: 1rem;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 720px) {
-=======
-@media screen and (max-width: 376px) {
->>>>>>> 312ad903a7f8333ff8493cec7e1194931a4c258c
     .explore {
         margin-top: 4rem;
         margin-bottom: 4rem;

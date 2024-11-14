@@ -1,0 +1,125 @@
+/* Main FAQ Section */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  width: 100%;
+  max-width: 378px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* FAQ Header */
+.faq-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-title {
+  font-family: Montserrat;
+  font-size: 10.95px;
+  font-weight: 700;
+  line-height: 13.35px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.faq-heading {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34.13px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.faq-heading > span {
+  color: #55b76b;
+}
+
+/* Accordion Styling */
+.accordion-item {
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 343px;
+  transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-summary {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  background-color: #f2f2f2;
+  border-radius: 30px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordion-summary:hover {
+  background-color: #e8e8e8;
+}
+
+.accordion-details {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+/* Contact Us Section */
+.contact-section {
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 343px;
+}
+
+.contact-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.contact-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: #55b76b;
+  color: #fff;
+  border: none;
+  border-radius: 30px; /* Fully rounded button */
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #4aa360;
+}
