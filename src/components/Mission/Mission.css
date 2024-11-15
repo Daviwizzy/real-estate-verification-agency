@@ -5,7 +5,6 @@
     padding: 1rem;
     gap: 104px;
     margin-top: 143px;
-    margin-bottom: 143px;
 }
 
 .ourMissionLeft {
@@ -36,8 +35,8 @@
 
 .ourMissionRight {
     position: relative;
-    width: 521.68px;
-    height: 461.27px;
+    /* width: 521.68px;
+    height: 461.27px; */
 }
 
 .ourMissionRight .bcg-1 {
@@ -84,46 +83,99 @@
 @media screen and (max-width:720px) {
     .mission-container {
         flex-direction: column;
-
+        justify-content: center;
+        gap: 38px;
+       
     }
 
     .ourMissionLeft{
-    width:376px;
-    height:210px;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    max-width:376px;
+    max-height:210px;
+    align-items: center;
+    text-align: center;
     justify-content: center;
 
  }
 
 
 .ourMissionLeft h1 {
-    width: 376px;
-height: 118px;
-gap: 0px;
-opacity: 0px;
-font-family: Montserrat;
 font-size: 48px;
 font-weight: 700;
 line-height: 58.51px;
 text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
-
 }
 
 .ourMissionLeft p {
-    font-size: 13px;
-    line-height: 1.4;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.63px;
+text-align: center;
 }
 
 .ourMissionRight {
-    width: 100%;
-    max-width: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
-.ourMissionRight .ourMissionImg1,
-.ourMissionRight .ourMissionImg2 {
-    gap: 5px;
+.img1{
+    width: 83.04px;
+    height: 88.87px;
+
 }
+
+.img12{
+    width: 219.98px;
+    height: 115.09px;
+
+}
+
+.img3{
+    width: 172.64px;
+height: 118px;
+}
+
+.img4{
+    width: 120.92px;
+    height: 180.65px;
+    margin-bottom: 2rem;
+}
+
+.bcg-33{
+   max-width: 148px;
+    max-height: 108px;
+    position: absolute;
+    top:80px;
+    margin-left:18px;
+}
+
+
+.bcg-1, .bcg-2{
+    display: none;
+}
+
+
+.ourMissionRight .ourMissionImg1 {
+    gap:14px;
+    align-items: center;
+    margin-left: 2.5rem;
+    position: relative;
+}
+
+.ourMissionRight .ourMissionImg1 .img1 {
+    margin-top: 1.6rem;
+}
+
+.ourMissionRight .ourMissionImg2 {
+    gap: 13px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: left;
+    position: relative;
+}
+
+
+
 }
