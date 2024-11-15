@@ -13,7 +13,7 @@ function Explore() {
                 <div className="explore-states">
                     <div className="logo">
                         <div className="logos">
-                            <img src="public/Ellipse 7.svg" alt="" />
+                            <img src="Ellipse 7.svg" alt="" />
                             <h3>Ogun State</h3>
                         </div>
 
@@ -44,7 +44,7 @@ function Explore() {
 
                     <div className="logo">
                         <div className="logos">
-                            <img src="public/Ellipse 8.svg" alt="" />
+                            <img src="Ellipse 8.svg" alt="" />
                             <h3>Lagos State</h3>
                         </div>
 
@@ -75,7 +75,7 @@ function Explore() {
 
                     <div className="logo">
                         <div className="logos">
-                            <img src="public/Ellipse 9.svg" alt="" />
+                            <img src="Ellipse 9.svg" alt="" />
                             <h3>Abuja</h3>
                         </div>
 
