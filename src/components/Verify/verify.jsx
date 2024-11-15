@@ -14,9 +14,7 @@ const Verify = () => {
         <button type="button">Register</button>
       </div>
 
-      <div className="verify-right">
-        <div className="verify-image"></div>
-      </div>
+      <div className="verify-image"></div>
     </section>
   );
 };

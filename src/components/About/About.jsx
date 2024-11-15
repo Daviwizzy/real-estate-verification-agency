@@ -7,11 +7,13 @@ const About = () => {
         <div className="about-image"></div>
       </div>
       <div className="about-right">
+        <div className="about-text">
         <p>About Verizon?</p>
         <h2>Secure your property Investment</h2>
         <p className="text">
           Building Trust Through Accuracy, Expertise, and Integrity.
         </p>
+        </div>
         <section className="stats-container">
 
           <p className="stat">
