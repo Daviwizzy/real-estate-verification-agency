@@ -14,13 +14,8 @@ import Footer from "./components/Footer/Footer";
 import Mobfooter from "./components/Footer/mob-footer";
 import Contact from "./components/contact/Contact";
 import Verify from "./components/Verify/Verify";
-<<<<<<< HEAD
 import Questions from "./components/Questions/Questions";
 import Testimonials from "./components/Testimonials/Testimonials";
-=======
-// import AccordionTransition from "./components/FAQS/Faqs";
-import Questions from "./components/Questions/Questions";
->>>>>>> e75ca62e9af33964cff2ff060785c9c27f94fd22
 
 function App() {
   return (
@@ -33,10 +28,7 @@ function App() {
       <Explore />
       <Trust />
       <Mission />
-<<<<<<< HEAD
       <Testimonials />
-=======
->>>>>>> e75ca62e9af33964cff2ff060785c9c27f94fd22
       <Verify />
       <Questions />
       <Contact />
