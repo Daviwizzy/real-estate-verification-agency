@@ -2,7 +2,6 @@ import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Helmet } from "react-helmet";
-
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -21,9 +20,9 @@ import MOBTRUST from "./components/Trust/mobTrust";
 
 function App() {
   return (
-    <div>
+    <div className="general-container">
       <Helmet>
-        <title>Verify Your Property Investments with Verizone</title>
+        <title>Verizone</title>
         <meta
           name="description"
           content="Verizone ensures safe property investments with comprehensive legal and ownership checks. Protect your investment with trusted verification services."
