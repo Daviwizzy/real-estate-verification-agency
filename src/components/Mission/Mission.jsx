@@ -2,7 +2,7 @@ import "./Mission.css";
 
 function Mission() {
     return (
-        <div className="mission-container">
+        <div className="mission-container container-margin paddings">
             <div className="ourMissionLeft">
                 <h1>
                     OUR <br /> MISSION
