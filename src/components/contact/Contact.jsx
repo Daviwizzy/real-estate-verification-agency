@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="left-contact"></div>
       <div className="right-contact">
         <h1>Verizone</h1>
