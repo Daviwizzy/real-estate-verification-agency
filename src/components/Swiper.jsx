@@ -34,10 +34,11 @@ export default function HowSwiper() {
         {isMobile ? (
           // Mobile View: Swiper
           <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
+            slidesPerView={1.4}
+            spaceBetween={40}
             loop={true}
-            className="mySwiper"
+            centeredSlides={true}
+            // className="mySwiper"
           >
             {HowData.map((data, index) => (
               <SwiperSlide key={index} className="how-card-container">
