@@ -16,27 +16,26 @@ const FAQComponent = () => {
       <h3 className="faq-subtitle">
         Question? <span>Look here</span>
       </h3>
-
       <div className="faq-body">
         <div className="faq-list">
           {data.map((faq, index) => (
-            <div key={index} className="faq-item">
+            <div
+              key={index}
+              className={`faq-item ${openIndex === index ? "open" : ""}`}
+            >
               <div className="faq-header" onClick={() => toggleAnswer(index)}>
                 <div className="faq-question">{faq.question}</div>
                 <div className="faq-icon">
                   {openIndex === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </div>
               </div>
-              {openIndex === index && (
-                <div className="faq-answer">
-                  <h3 className="faq-answer-head">{faq["answer-head"]}</h3>
-                  <p>{faq.answer}</p>
-                </div>
-              )}
+              <div className="faq-answer">
+                <h3 className="faq-answer-head">{faq["answer-head"]}</h3>
+                <p>{faq.answer}</p>
+              </div>
             </div>
           ))}
         </div>
-
         <div className="faq-contain">
           <img
             src="./faqs.svg"

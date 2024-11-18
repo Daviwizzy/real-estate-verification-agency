@@ -8,12 +8,12 @@
 }
 
 .left-contact {
-  background: url(./Contact1.svg) center/cover no-repeat;
+  background: url(/Contact1.svg) center/cover no-repeat;
   height: 454px;
 }
 
 .right-contact {
-  background: url(./Contact.jpg) center/cover no-repeat;
+  background: url(/Contact.jpg) center/cover no-repeat;
   padding: 42px 29px;
   border-radius: 0 0 15px 15px;
 }

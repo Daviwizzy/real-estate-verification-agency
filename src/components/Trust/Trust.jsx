@@ -5,7 +5,7 @@ const Trust = () => {
 
     <div className="trust-container">
       <div className="trust-first">
-        <img src="public/why trust us.svg" alt="" />
+        <img src="why trust us.svg" alt="" />
       </div>
       <div className="trust-last">
         <div className="trust-last-1">
