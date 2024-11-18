@@ -92,7 +92,7 @@ const About = () => {
           </p>
         </section>
         <div className="verizon-logo">
-          <img src="./VERIZONEB1.svg" alt="verizon logo" />
+          <img src="./VERIZONEB1.svg" alt="Verizon logo" />
         </div>
       </div>
     </section>

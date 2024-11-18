@@ -5,7 +5,7 @@ const Hero = () => {
     <main className="hero-main-container container-margin" id="/">
       <div className="hero-container">
         <div className="hero-text">
-          <h1 className="slide">
+          <h1>
             <span className="heading-text">
               Verify <br /> Your Property
             </span>
