@@ -2,4 +2,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+
+}
+
+.general-container{
+  width: 100%;
+  overflow: hidden;
 }

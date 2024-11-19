@@ -6,7 +6,7 @@ const Hero = () => {
       
       <div className="hero-container" id="/">
         <div className="hero-text">
-          <h1 className="slide">
+          <h1>
             <span className="heading-text">
               Verify <br /> Your Property
             </span>
