@@ -2,8 +2,9 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <main className="hero-main-container container-margin" id="/">
-      <div className="hero-container">
+    <main className="hero-main-container container-margin">
+      
+      <div className="hero-container" id="/">
         <div className="hero-text">
           <h1 className="slide">
             <span className="heading-text">
