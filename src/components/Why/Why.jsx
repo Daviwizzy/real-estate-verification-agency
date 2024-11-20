@@ -25,7 +25,7 @@ const Why = () => {
           <div className="pe-cicrle">
             <div className="div-cicrle">
               <div className="div-cicrle-child-1">
-                <img src="/Vector1.png" alt="" className="cicrle" />
+                <img src="./Vector1.png" alt="" className="cicrle" />
               </div>
               <div>
                 <p>Dispute Check</p>
@@ -39,7 +39,7 @@ const Why = () => {
 
             <div className="div-cicrle">
               <div className="div-cicrle-child-1">
-                <img src="/Vector2.svg" alt="" className="cicrle" />
+                <img src="./Vector2.svg" alt="" className="cicrle" />
               </div>
               <div>
                 <p>Validation</p>
@@ -52,7 +52,7 @@ const Why = () => {
             </div>
             <div className="div-cicrle">
               <div className="div-cicrle-child">
-                <img src="/Vector3.svg" alt="" className="cicrle" />
+                <img src="./Vector3.svg" alt="" className="cicrle" />
               </div>
 
               <div>

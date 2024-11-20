@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="container">
-        <img src="/VERIZONEB1.svg" alt="Logo" className="logo" />
+        <img src="./Logo.svg" alt="Logo" className="logo" />
         <div
           className="hamburger"
           onClick={toggleMenu}

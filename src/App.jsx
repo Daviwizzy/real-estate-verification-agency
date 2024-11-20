@@ -2,21 +2,27 @@ import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Helmet } from "react-helmet";
-import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import Trust from "./components/Trust/Trust";
-import Why from "./components/Why/Why";
-import How from "./components/How/How";
-import Explore from "./components/Explore/Explore";
-import Mission from "./components/Mission/Mission";
 import Footer from "./components/Footer/Footer";
 import Mobfooter from "./components/Footer/mob-footer";
-import Contact from "./components/contact/Contact";
-import Verify from "./components/Verify/Verify";
-import Questions from "./components/Questions/Questions";
-import Testimonials from "./components/Testimonials/Testimonials";
-import MOBTRUST from "./components/Trust/mobTrust";
+
+// Lazy imports for non-critical components
+import React, { Suspense } from "react";
+
+const About = React.lazy(() => import("./components/About/About"));
+const Trust = React.lazy(() => import("./components/Trust/Trust"));
+const Why = React.lazy(() => import("./components/Why/Why"));
+const How = React.lazy(() => import("./components/How/How"));
+const Explore = React.lazy(() => import("./components/Explore/Explore"));
+const Mission = React.lazy(() => import("./components/Mission/Mission"));
+const Verify = React.lazy(() => import("./components/Verify/Verify"));
+const Questions = React.lazy(() => import("./components/Questions/Questions"));
+const Testimonials = React.lazy(() =>
+  import("./components/Testimonials/Testimonials")
+);
+const MOBTRUST = React.lazy(() => import("./components/Trust/mobTrust"));
+const Contact = React.lazy(() => import("./components/contact/Contact"));
 
 function App() {
   return (
@@ -49,17 +55,37 @@ function App() {
       </Helmet>
       <Header />
       <Hero />
-      <About />
-      <Why />
-      <How />
-      <Explore />
-      <Trust />
-      <MOBTRUST />
-      <Mission />
-      <Testimonials />
-      <Verify />
-      <Questions />
-      <Contact />
+      <Suspense fallback={<div>Loading About...</div>}>
+        <About />
+      </Suspense>
+      <Suspense fallback={<div>Loading Why...</div>}>
+        <Why />
+      </Suspense>
+      <Suspense fallback={<div>Loading How...</div>}>
+        <How />
+      </Suspense>
+      <Suspense fallback={<div>Loading Explore...</div>}>
+        <Explore />
+      </Suspense>
+      <Suspense fallback={<div>Loading Trust...</div>}>
+        <Trust />
+        <MOBTRUST />
+      </Suspense>
+      <Suspense fallback={<div>Loading Mission...</div>}>
+        <Mission />
+      </Suspense>
+      <Suspense fallback={<div>Loading Testimonials...</div>}>
+        <Testimonials />
+      </Suspense>
+      <Suspense fallback={<div>Loading Verify...</div>}>
+        <Verify />
+      </Suspense>
+      <Suspense fallback={<div>Loading Questions...</div>}>
+        <Questions />
+      </Suspense>
+      <Suspense fallback={<div>Loading Contact...</div>}>
+        <Contact />
+      </Suspense>
       <Footer />
       <Mobfooter />
     </div>
