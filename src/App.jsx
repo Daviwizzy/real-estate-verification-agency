@@ -19,7 +19,7 @@ const Mission = React.lazy(() => import("./components/Mission/Mission"));
 const Verify = React.lazy(() => import("./components/Verify/verify"));
 const Questions = React.lazy(() => import("./components/Questions/Questions"));
 const Testimonials = React.lazy(() => import("./components/Testimonials/Testimonials"));
-const MOBTRUST = React.lazy(() => import("./components/Trust/mobTrust"));
+const MOBTRUST = React.lazy(() => import("./components/Trust/MobTrust"));
 const Contact = React.lazy(() => import("./components/contact/Contact"));
 
 function App() {
